@@ -12,7 +12,7 @@ if (isset($_POST['submit']))
   print_r('<br>');
   print_r('Cidade: ' . $_POST['cidade']);
   print_r('<br>');
-  print_r('Estado: ' . $_POST['inputState']);
+  print_r('Estado: ' . $_POST['estado']);
   print_r('<br>');
   print_r('Senha: ' . $_POST['senha']);
   print_r('<br>');
@@ -89,7 +89,7 @@ if (isset($_POST['submit']))
                       </div>
                   </div>
                   <div class="form-group col-12 col-md-6">
-                      <label for="inputState" class="form-label">Estado: <span class="text-danger">*</span></label>
+                      <label for="inputState" name="estado" class="form-label">Estado: <span class="text-danger">*</span></label>
                       <select id="inputState" class="form-control" required>
                           <option selected disabled value="">Escolha: </option>
                           <option value="SP">São Paulo</option>
