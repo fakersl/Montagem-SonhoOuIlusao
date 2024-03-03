@@ -1,4 +1,36 @@
-.form-row{ 
-display: flex;
-color: #DAA520;
-}
+.login-form {
+    background-color: #F9EFED;
+    border-radius: 10px;
+  }
+  
+  .icon {
+    align-content: flex-start;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .form-title {
+    color: #3D303A;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .form-label {
+    color: #3D303A;
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: #453C4D;
+    border-color: #453C4D;
+  }
+  
+  .btn-primary:hover {
+    background-color: #4D5D73;
+    border-color: #4D5D73;
+  }
+  
