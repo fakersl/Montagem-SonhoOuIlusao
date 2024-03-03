@@ -36,7 +36,7 @@ if (isset($_POST['submit']))
                 <!--<img src="" alt="Icon" class="icon">-->
                 <h1 class="form-title">Registro</h1>
               </div>
-              <form action="registro.php">
+              <form action="registro.php" method="POST">
                 <div class="form-row">
                   <div class="form-group col-12">
                       <label for="username" class="form-label">Nome: <span class="text-danger">*</span></label>
