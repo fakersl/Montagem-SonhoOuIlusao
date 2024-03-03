@@ -2,8 +2,19 @@
 
 if (isset($_POST['submit']))
 {
-  print_r($_POST['nome']);
-  print_r($_POST['email']);
+  print_r('Nome: ' . $_POST['nome']);
+  print_r($_POST['<br>']);
+  print_r('CPF: ' . $_POST['cpf']);
+  print_r($_POST['<br>']);
+  print_r('E-mail: ' . $_POST['email']);
+  print_r($_POST['<br>']);
+  print_r('Endereco: ' . $_POST['endereco']);
+  print_r($_POST['<br>']);
+  print_r('Cidade: ' . $_POST['cidade']);
+  print_r($_POST['<br>']);
+  print_r('Estado: ' . $_POST['estado']);
+  print_r($_POST['<br>']);
+  print_r('Senha: ' . $_POST['senha']);
 }
 ?>
 <!DOCTYPE html>
