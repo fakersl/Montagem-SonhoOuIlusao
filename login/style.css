@@ -1,3 +1,7 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
+
 .login-form {
   background-color: #F9EFED;
   border-radius: 10px;
