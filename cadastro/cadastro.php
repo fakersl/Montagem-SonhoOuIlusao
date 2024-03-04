@@ -8,6 +8,7 @@
         $endereco = $_POST["endereco"];
         $cidade = $_POST["cidade"];
         $estado = $_POST["estado"];
+        
         $senha = password_hash($_POST["senha"], PASSWORD_DEFAULT);
     
         $sql = "INSERT INTO usuarios (nome, cpf, email, endereco, cidade, estado, senha) VALUES ('$nome', '$cpf', '$email', '$endereco', '$cidade', '$senha)";
