@@ -8,5 +8,4 @@ CREATE TABLE usuarios (
     estado VARCHAR(130) NOT NULL,
     senha VARCHAR(130) NOT NULL,
     PRIMARY KEY (ID);
-
 )
